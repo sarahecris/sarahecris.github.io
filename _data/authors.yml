@@ -1,0 +1,9 @@
+web:
+  username: web
+  name: WEB
+  location: web
+  url_full: https://hanumanchalisa.net
+  url: hanumanchalisa.net
+  bio: web!
+  assets: assets/images/hanuman.png
+

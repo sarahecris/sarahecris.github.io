@@ -1,0 +1,58 @@
+# Site settings
+title: Sarah e Cristopher
+description:
+cover: assets/images/cover_site_sml.jpg
+logo: assets/images/favicon.png
+favicon: assets/images/favicon.png
+baseurl: "/" # the subpath of your site, e.g. /blog/ or / for root
+url: "https://sarahecris.github.io" # the base hostname & protocol for your site
+paginate:	5 # The number of posts to show per page on your homepage
+
+# Social
+email: sarahecris@protonmail.com
+#facebook: facebook
+#twitter: twitter
+#github:  github
+
+#Additional Pages
+about: about
+contact: contact
+privacy-policy: privacy-policy
+
+
+permalink: /:title
+
+
+# Google Analytics
+analytics_id: ""
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  parse_block_html: true
+
+plugins:
+  - jekyll-paginate
+
+
+# Settings for rake task
+safe: False
+lsi: False
+username: sarahecris #github username
+repo: teste #github repository
+branch: master #branch
+#relative_source: ../teste/ #source directory
+#destination: ../teste/ #destination directory
+production_url:  https://sarahecris.github.io/
+source_url:  https://sarahecris.github.io/ #source repository url
+
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - changelog.md
+  - "*.Rmd"
+  - vendor
+  - .travis.yml
